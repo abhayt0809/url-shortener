@@ -2,8 +2,9 @@
 
 A fast URL shortener with click tracking, built with FastAPI, SQLAlchemy and PostgreSQL.
 
-**Live demo:** _coming soon_
-**API docs:** _coming soon_ (`/docs` on the live link)
+**Live demo:** https://url-shortener-udcn.onrender.com
+
+**API docs:** https://url-shortener-udcn.onrender.com/docs
 
 > Hosted on free tiers, so the first request after a period of inactivity may take up to a minute to wake the server.
 
@@ -72,7 +73,7 @@ url-shortener/
 
 ## Roadmap
 - [x] MVP: shorten, redirect, click counting
-- [ ] Deploy with Render and Neon
+- [x] Deploy with Render and Neon
 - [ ] Custom aliases and link expiry
 - [ ] Better URL validation and abuse protection
 - [ ] Alembic database migrations
